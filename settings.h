@@ -14,8 +14,6 @@
 #define RADIO_CHANNEL       0x19
 #define RADIO_PAN_ID        0x2050
 #define RADIO_SRC_ADDR      0x2052
-//Hard-coded destination address, must match basestation or XBee addr
-#define RADIO_DST_ADDR      0x2051
 
 
 #define RADIO_TXPQ_MAX_SIZE   10
