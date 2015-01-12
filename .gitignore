@@ -1,0 +1,5 @@
+# Python bytecode and other binary types
+*.py[cod]
+
+# ipynb
+.ipynb_checkpoints
