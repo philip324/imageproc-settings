@@ -1,11 +1,11 @@
 ''' AP 1/7/15: This old style of shared.py is going to be deprecated soon. '''
 
-DEST_ADDR = '\x21\x62'
+DEST_ADDR = '\x21\x61'
 xb = []
 ser = []
 
 #Xbee serial
-BS_COMPORT = '/dev/ttyUSB0'
+BS_COMPORT = '/dev/ttyUSB1'
 BS_BAUDRATE = 57600     # Use this setting if your Xbee is set to baud rate of 57600
 #BS_BAUDRATE = 111111   # Use this setting if your Xbee is set to baud rate of 115200
 
@@ -37,6 +37,7 @@ moveq = "NOT SET"
 robotQueried = False
 maxQueries = 8
 
+ROBOTS = []
 #This message will be removed in the future. It is here to facilitate from the changeover
 #to use of imageproc-settings in projects.
 print "shared.py from imageproc-settings"
